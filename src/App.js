@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 import { SideBar } from './components/SideBar';
+import './assets/css/app.css';
+import ContentWrapper from './components/ContentWrapper';
+
 
 function App() {
   return (
-    <div className='App'>
+    <div id='wrapper'>
 
       <SideBar/>
+      <ContentWrapper/>
     </div>
     );
 }
