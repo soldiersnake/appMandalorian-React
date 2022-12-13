@@ -5,11 +5,17 @@ import ContentWrapper from './components/ContentWrapper';
 
 function App() {
   return (
-    <div id='wrapper'>
+    <>
+      <div id='wrapper'>
 
       <SideBar/>
-      <ContentWrapper/>
-    </div>
+      <div id="content-wrapper" className="d-flex flex-column">
+        <ContentWrapper/>
+
+      </div>
+      </div>
+    </>
+    
     );
 }
 

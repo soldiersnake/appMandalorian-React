@@ -8,7 +8,7 @@ function ContentWrapper() {
   return (
     <div>
         {/* <!-- Content Wrapper --> */}
-		<div id="content-wrapper" className="d-flex flex-column">
+		{/* <div id="content-wrapper" className="d-flex flex-column"> */}
 
 			{/* <!-- Main Content --> */}
 			<div id="content">
@@ -66,7 +66,7 @@ function ContentWrapper() {
 			{/* AQUI IRIA EL Footer */}
             <Footer/>
 
-		</div>
+		{/* </div> */}
 		{/* <!-- End of Content Wrapper --> */}
     </div>
   )

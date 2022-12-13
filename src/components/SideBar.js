@@ -3,7 +3,7 @@ import LogoDH from '../assets/images/logo-DH.png';
 
 export const SideBar = () => {
   return (
-    <div>
+    <>
         {/* <!-- Sidebar --> */}
 		<ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -56,6 +56,6 @@ export const SideBar = () => {
 			<hr className="sidebar-divider d-none d-md-block"/>
 		</ul>
 		{/* <!-- End of Sidebar --></hr> */}
-    </div>
+    </>
   )
 };
