@@ -1,12 +1,13 @@
 import React from 'react';
 import { Card } from './Card';
 
+
 export const ContentRowMovies = () => {
 
     let moviesInDB = {
         titulo: 'Movies in Data Base',
         color: 'primary', 
-        cifra: 21,
+        cifra: '21',
         icono: 'clipboard-list'
     };
 
