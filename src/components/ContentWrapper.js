@@ -2,6 +2,7 @@ import React from 'react';
 import JordanWalkie from '../assets/images/jordan-walke.png';
 import { ContentRowTop } from './ContentRowTop';
 import { Footer } from './Footer';
+import { Tabla } from './Tabla';
 
 
 function ContentWrapper() {
@@ -62,6 +63,8 @@ function ContentWrapper() {
 
 			</div>
 			{/* <!-- End of MainContent --> */}
+
+			<Tabla/>
 
 			{/* AQUI IRIA EL Footer */}
             <Footer/>

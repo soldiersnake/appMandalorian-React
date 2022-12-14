@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes, {string} from 'prop-types';
 
 export const Card = (props) => {
   return (
@@ -35,11 +35,11 @@ Card.defaultProps={
     color:'danger',
     cifra:'0',
     icono:'user-check'
-}
+};
 
 Card.propTypes = {
-  titulo : PropTypes.string.isRequired,
+  titulo : string.isRequired,
   color : PropTypes.oneOf(['primary', 'success', 'warning']).isRequired,
-  cifra : PropTypes.string,
-  icono : PropTypes.string
+  cifra : PropTypes.oneOfType([ PropTypes.string, PropTypes.number]),
+  icono : string
 };
